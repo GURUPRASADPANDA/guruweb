@@ -62,3 +62,53 @@ html,body{
     font-size: 19px;
    letter-spacing: 2px;
  }
+@media(width <= 560px){
+    .textBg{
+        padding: 10px; 
+        font-size: 11px; 
+    }
+    .section-dark {
+        font-size: 10px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+    .section-light {
+        font-size: 10px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+    .section {
+        padding: 10px 7px;
+    }
+    .pimg1,.pimg2,.pimg3,.pimg4{
+        min-height: 600px;
+    }
+
+}
+@media(width <= 362px){
+    .textBg{
+        padding: 0px; 
+        font-size: 9px; 
+    }
+    .section-dark {
+        font-size: 8x;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .section-light {
+        font-size: 10px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .ptext{
+        letter-spacing: 4px;
+    }
+    .section {
+        padding: 0px 0px;
+        
+    }
+    .pimg1,.pimg2,.pimg3,.pimg4{
+        min-height: 400px;
+    }
+
+}
